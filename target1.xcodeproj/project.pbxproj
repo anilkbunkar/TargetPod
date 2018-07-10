@@ -13,7 +13,44 @@
 		90232F4D20C7F743001E5A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90232F4C20C7F743001E5A34 /* Assets.xcassets */; };
 		90232F5020C7F743001E5A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90232F4E20C7F743001E5A34 /* LaunchScreen.storyboard */; };
 		90232F5320C7F743001E5A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90232F5220C7F743001E5A34 /* main.m */; };
+		9057AF9120EE4B7E00A226DE /* SocketCluster_ios_client.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 909B676920EE3F8500BF8B34 /* SocketCluster_ios_client.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9057AF9520EE4F2600A226DE /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9057AF9420EE4F2600A226DE /* SocketRocket.framework */; };
+		9057AF9620EE4F3B00A226DE /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9057AF9420EE4F2600A226DE /* SocketRocket.framework */; };
+		9057AF9720EE4F3B00A226DE /* SocketRocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9057AF9420EE4F2600A226DE /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9091D0D520E0E4BC00C4CCAE /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9091D0D420E0E4BC00C4CCAE /* libstdc++.tbd */; };
+		9091D12120E4F3E500C4CCAE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9091D12020E4F3E400C4CCAE /* libsqlite3.tbd */; };
+		9091D12320E4F3FC00C4CCAE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9091D12220E4F3FC00C4CCAE /* UserNotifications.framework */; };
+		9091D12520E4F48600C4CCAE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9091D12420E4F48500C4CCAE /* WebKit.framework */; };
+		9091D12720E4F4AF00C4CCAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9091D12620E4F4AF00C4CCAE /* UIKit.framework */; };
+		9091D12B20E4F5C800C4CCAE /* AdobeTargetMobileLibrary_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9091D12A20E4F5C800C4CCAE /* AdobeTargetMobileLibrary_iOS.a */; };
+		909B676B20EE3F8500BF8B34 /* SocketCluster_ios_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909B676920EE3F8500BF8B34 /* SocketCluster_ios_client.framework */; };
+		90BB3CEA20F390AF00E20AEE /* CustomTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BB3CE920F390AF00E20AEE /* CustomTap.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9091D0CA20E0D0FF00C4CCAE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9057AF9120EE4B7E00A226DE /* SocketCluster_ios_client.framework in Embed Frameworks */,
+				9057AF9720EE4F3B00A226DE /* SocketRocket.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909B676720EE371E00BF8B34 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		90232F4020C7F742001E5A34 /* target1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = target1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +63,19 @@
 		90232F4F20C7F743001E5A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90232F5120C7F743001E5A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90232F5220C7F743001E5A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9057AF9420EE4F2600A226DE /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketRocket.framework; sourceTree = "<group>"; };
+		9091D0D420E0E4BC00C4CCAE /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9091D11F20E4AB8200C4CCAE /* ADBAdobeTargetMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBAdobeTargetMobile.h; sourceTree = "<group>"; };
+		9091D12020E4F3E400C4CCAE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9091D12220E4F3FC00C4CCAE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9091D12420E4F48500C4CCAE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9091D12620E4F4AF00C4CCAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9091D12820E4F52400C4CCAE /* AdobeTargetMobileLibrary_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AdobeTargetMobileLibrary_iOS.a; path = "../target-client-platform-ios/bin/build_temp/AdobeTargetMobileLibrary-alpha20180627-iOS/AdobeTargetMobileLibrary/AdobeTargetMobileLibrary_iOS.a"; sourceTree = "<group>"; };
+		9091D12A20E4F5C800C4CCAE /* AdobeTargetMobileLibrary_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeTargetMobileLibrary_iOS.a; sourceTree = "<group>"; };
+		909B676920EE3F8500BF8B34 /* SocketCluster_ios_client.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketCluster_ios_client.framework; sourceTree = "<group>"; };
+		90BB3CE820F390AF00E20AEE /* CustomTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTap.h; sourceTree = "<group>"; };
+		90BB3CE920F390AF00E20AEE /* CustomTap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTap.m; sourceTree = "<group>"; };
+		90C9435420D27B5A00272447 /* target1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = target1.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +83,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9091D12720E4F4AF00C4CCAE /* UIKit.framework in Frameworks */,
+				9091D12520E4F48600C4CCAE /* WebKit.framework in Frameworks */,
+				9091D12320E4F3FC00C4CCAE /* UserNotifications.framework in Frameworks */,
+				9057AF9520EE4F2600A226DE /* SocketRocket.framework in Frameworks */,
+				9057AF9620EE4F3B00A226DE /* SocketRocket.framework in Frameworks */,
+				9091D12120E4F3E500C4CCAE /* libsqlite3.tbd in Frameworks */,
+				909B676B20EE3F8500BF8B34 /* SocketCluster_ios_client.framework in Frameworks */,
+				9091D0D520E0E4BC00C4CCAE /* libstdc++.tbd in Frameworks */,
+				9091D12B20E4F5C800C4CCAE /* AdobeTargetMobileLibrary_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +103,7 @@
 			children = (
 				90232F4220C7F742001E5A34 /* target1 */,
 				90232F4120C7F742001E5A34 /* Products */,
+				9091D0D320E0E4BC00C4CCAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +118,11 @@
 		90232F4220C7F742001E5A34 /* target1 */ = {
 			isa = PBXGroup;
 			children = (
+				909B676920EE3F8500BF8B34 /* SocketCluster_ios_client.framework */,
+				9057AF9420EE4F2600A226DE /* SocketRocket.framework */,
+				9091D12A20E4F5C800C4CCAE /* AdobeTargetMobileLibrary_iOS.a */,
+				9091D11F20E4AB8200C4CCAE /* ADBAdobeTargetMobile.h */,
+				90C9435420D27B5A00272447 /* target1.entitlements */,
 				90232F4320C7F742001E5A34 /* AppDelegate.h */,
 				90232F4420C7F742001E5A34 /* AppDelegate.m */,
 				90232F4620C7F742001E5A34 /* ViewController.h */,
@@ -67,8 +132,23 @@
 				90232F4E20C7F743001E5A34 /* LaunchScreen.storyboard */,
 				90232F5120C7F743001E5A34 /* Info.plist */,
 				90232F5220C7F743001E5A34 /* main.m */,
+				90BB3CE820F390AF00E20AEE /* CustomTap.h */,
+				90BB3CE920F390AF00E20AEE /* CustomTap.m */,
 			);
 			path = target1;
+			sourceTree = "<group>";
+		};
+		9091D0D320E0E4BC00C4CCAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9091D12820E4F52400C4CCAE /* AdobeTargetMobileLibrary_iOS.a */,
+				9091D12620E4F4AF00C4CCAE /* UIKit.framework */,
+				9091D12420E4F48500C4CCAE /* WebKit.framework */,
+				9091D12220E4F3FC00C4CCAE /* UserNotifications.framework */,
+				9091D12020E4F3E400C4CCAE /* libsqlite3.tbd */,
+				9091D0D420E0E4BC00C4CCAE /* libstdc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +161,8 @@
 				90232F3C20C7F742001E5A34 /* Sources */,
 				90232F3D20C7F742001E5A34 /* Frameworks */,
 				90232F3E20C7F742001E5A34 /* Resources */,
+				9091D0CA20E0D0FF00C4CCAE /* Embed Frameworks */,
+				909B676720EE371E00BF8B34 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -102,6 +184,11 @@
 				TargetAttributes = {
 					90232F3F20C7F742001E5A34 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -143,6 +230,7 @@
 			files = (
 				90232F4820C7F742001E5A34 /* ViewController.m in Sources */,
 				90232F5320C7F743001E5A34 /* main.m in Sources */,
+				90BB3CEA20F390AF00E20AEE /* CustomTap.m in Sources */,
 				90232F4520C7F742001E5A34 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +292,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -223,7 +312,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				SDKROOT = iphoneos;
+				WARNING_CFLAGS = "-fembed-bitcode-marker";
 			};
 			name = Debug;
 		};
@@ -262,6 +353,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -274,8 +366,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-fembed-bitcode";
 			};
 			name = Release;
 		};
@@ -283,16 +377,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JQ525L2MZD;
+				CODE_SIGN_ENTITLEMENTS = target1/target1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ankit Rustagi (4B343P3G2Q)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/bunkar/Documents/Adobe/target1/target1/**",
+					"$(PROJECT_DIR)/target1",
+				);
 				INFOPLIST_FILE = target1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/target1",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.target1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "TargetTest1 Development Profile";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -300,16 +409,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JQ525L2MZD;
+				CODE_SIGN_ENTITLEMENTS = target1/target1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ankit Rustagi (4B343P3G2Q)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/bunkar/Documents/Adobe/target1/target1/**",
+					"$(PROJECT_DIR)/target1",
+				);
 				INFOPLIST_FILE = target1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/target1",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobetarget.target1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "TargetTest1 Development Profile";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
